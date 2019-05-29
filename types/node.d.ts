@@ -49,6 +49,7 @@ export interface Node {
   strokeDashes?: number[]
   strokeJoin?: StrokeJoinType
   strokeMiterAngle?: number
+  strokeWeight?: number
   strokes?: Paint[]
   style?: TypeStyle
   styleOverrideTable?: Map<string, TypeStyle>
