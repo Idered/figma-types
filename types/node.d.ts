@@ -54,4 +54,5 @@ export interface Node {
   styleOverrideTable?: Map<string, TypeStyle>
   styles?: Map<string, string>
   type: NodeType
+  visible?: boolean
 }
