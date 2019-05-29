@@ -1,6 +1,6 @@
 {
   "name": "figma-types",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.ts",
   "description": "TypeScript definitions for Figma API responses.",
   "repository": "https://github.com/Idered/figma-types.git",
