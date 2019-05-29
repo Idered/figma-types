@@ -1,13 +1,13 @@
 {
   "name": "figma-types",
   "version": "0.1.3",
-  "main": "index.ts",
+  "types": "index.d.ts",
   "description": "TypeScript definitions for Figma API responses.",
   "repository": "https://github.com/Idered/figma-types.git",
   "author": "Kasper Mikiewicz <iam@kasper.io>",
   "license": "MIT",
   "files": [
-    "index.ts",
+    "index.d.ts",
     "types"
   ],
   "keywords": [
