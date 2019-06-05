@@ -16,6 +16,7 @@ import {LayoutGrid} from "./layout-grid"
 import {Transform} from "./transform"
 import {Vector} from "./vector"
 import {TypeStyle} from "./type-style"
+import {Path} from "./path";
 
 export interface Node {
   absoluteBoundingBox?: Rectangle
@@ -33,6 +34,7 @@ export interface Node {
   effects?: Effect[]
   exportSettings?: ExportSetting[]
   fills?: Paint[]
+  fillGeometry?: Path[]
   id: string
   isMask?: boolean
   isMaskOutline?: boolean
@@ -51,6 +53,7 @@ export interface Node {
   strokeMiterAngle?: number
   strokeWeight?: number
   strokes?: Paint[]
+  strokeGeometry?: Path[]
   style?: TypeStyle
   styleOverrideTable?: Map<string, TypeStyle>
   styles?: Map<string, string>
