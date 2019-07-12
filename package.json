@@ -8,6 +8,10 @@
   "license": "MIT",
   "files": [
     "index.d.ts",
+    "files.d.ts",
+    "project-file.d.ts",
+    "project.d.ts",
+    "team.d.ts",
     "types"
   ],
   "keywords": [
