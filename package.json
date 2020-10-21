@@ -8,7 +8,7 @@
   "license": "MIT",
   "files": [
     "index.d.ts",
-    "files.d.ts",
+    "file.d.ts",
     "project-file.d.ts",
     "project.d.ts",
     "team.d.ts",
